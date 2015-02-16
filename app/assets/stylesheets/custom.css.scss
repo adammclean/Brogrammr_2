@@ -1,11 +1,25 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+#postText {
+  -webkit-font-smoothing: antialiased;
+  text-align: left;   
+}
+
+#date {
+  margin-right: 375px;
+}
+
 /* Blog container */
 .blogContainer {
   text-align: center;
   height: 600px;
-  width: 600px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 
 .abril {
