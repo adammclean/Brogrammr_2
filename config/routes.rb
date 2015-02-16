@@ -1,15 +1,13 @@
 Rails.application.routes.draw do
   
-  resources :maps  
-  resources :users
-
   root 'static_pages#home'
 
   get 'about' => 'static_pages#about'
 
   get 'contribute' => 'static_pages#contribute'
 
-  get 'signup' => 'users#new'
+  resources :users
+  resources :maps  
 
  
   

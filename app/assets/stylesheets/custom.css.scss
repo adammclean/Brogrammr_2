@@ -1,13 +1,21 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-#jumbotron {
-	text-align: center;
-	color: light-gray;
-	font-family: calibri;
+/* Blog container */
+.blogContainer {
+  text-align: center;
+  height: 600px;
+  width: 600px;
 }
 
+.abril {
+  font-family: 'Abril Fatface', 
+}
+
+
+
 /* footer */
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
@@ -51,6 +59,7 @@ h2 {
   color: #777;
 
   }
+
 p{
 font-size: 1.1em; line-height: 1.7em;
 }
@@ -65,24 +74,9 @@ font-size: 1.1em; line-height: 1.7em;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
-}
-#logo:hover {
-  color: #fff;
-  text-decoration: none;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 64px;
 }
 
 
- #map-container {
-   height: 400px;
-   border-radius: 16px 16px;
-   border-color: #fff;
-   border-style: solid;
-   box-shadow: 2px 2px 10px #B1B1B1;
-   margin-top: 25px;
-   border-width: 7px;
- }
- #map-canvas {
-   height: 384px;
-   width: 100%;
- } 
 
