@@ -10,9 +10,17 @@
   </head>
   
   <body>
+   <button-type = "button" id = "menuButton"> <%= link_to '', '#' %></button> 
    <%= render 'layouts/header' %> <br><br>
-   
-   <%= render 'layouts/buttons' %>
+  
+
+  <div id = 'buttonContainer'>
+    <p>
+      <button type="button" class="btn"> <a href = "https://twitter.com/brogrammr">@brogrammr</button></a>
+      <button type="button" class="btn"><a href="mailto:adam.mclean1@gmail.com?subject=Brogrammr">say hi</a></button>
+      <button type="button" class="btn"><a href = "localhost:3000">brogrammr.com</a></button>
+    </p>
+  </div>
 
     <%= yield %> 
     <div class="container">

@@ -1,7 +1,30 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+
+/* header */
+
+#logo {
+  
+  margin-left: 225px;
+  font-size: 1.7em;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 64px;
+}
+
 /* button styling */
+
+
+#buttonContainer {
+  margin-left: 370px;
+}
+
 .btn {
   display: inline-block;
   border: 1px solid #e4e4e4;
@@ -15,6 +38,20 @@
   transition-duration: 0.2s;
   background-color: white;
   margin-top: 50px;
+
+
+}
+
+
+
+/* Posts */
+
+
+/* Brogrammr's Font */
+
+
+.abril {
+  font-family: 'Abril Fatface', 
 }
 
 #postText {
@@ -43,28 +80,7 @@
   margin-bottom: 20px;
 }
 
-.abril {
-  font-family: 'Abril Fatface', 
-}
-
-/* header */
-#logo {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: black;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
-  font-family: 'Abril Fatface', cursive;
-  font-size: 64px;
-}
-
-
-
-
-/* footer */
+/* Footer */
 
 footer {
   margin-top: 45px;
@@ -90,16 +106,19 @@ footer ul li {
   margin-left: 15px;
 }
 
-/* typography */
+/* Typography */
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
+
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
 }
+
 h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
@@ -110,7 +129,7 @@ h2 {
 
   }
 
-p{
+p {
 font-size: 1.1em; line-height: 1.7em;
 }
 
