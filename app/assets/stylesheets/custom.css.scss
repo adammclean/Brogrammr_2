@@ -18,23 +18,24 @@
   font-size: 64px;
 }
 
-#logo:hover {
-  text-color: #FF0042;
-}
 
-/* button styling */
 
-#hamburger a {
+/******** Glyphicon Styling *********/
 
-  display: block;
-  width: 28px;
-  height: 28px;
-  border-radius: 100%;
-}
+
 
 #hamburgerHelper {
   margin-left: 800px;
+  border-radius: 25px;
+  height: 40px;
+  width: 40px;
+  
 }
+
+
+/******* Button Styling ********/
+
+
 
 #buttonContainer {
   margin-left: 370px;
@@ -55,8 +56,11 @@
   margin-top: 75px;
 }
 
-.btn:hover{
-  background-color: #FF0042;
+.btn:hover {
+  background-color: #EFEFEF;
+  .link {
+  text-decoration: none;
+  }
 }
 
 
