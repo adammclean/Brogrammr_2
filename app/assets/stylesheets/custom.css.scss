@@ -1,9 +1,18 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* button styling */
+.btn btn-default btn-sm {
+  border-radius: 50%;
+}
+
 #postText {
   -webkit-font-smoothing: antialiased;
   text-align: left;   
+}
+
+#postTitle {
+  text-align: left;
 }
 
 #date {
@@ -11,8 +20,9 @@
 }
 
 /* Blog container */
+
 .blogContainer {
-  text-align: center;
+  text-align: left;
   height: 600px;
   max-width: 600px;
   margin: 0 auto;
@@ -25,6 +35,21 @@
 .abril {
   font-family: 'Abril Fatface', 
 }
+
+/* header */
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 64px;
+}
+
 
 
 
@@ -78,19 +103,6 @@ p{
 font-size: 1.1em; line-height: 1.7em;
 }
 
-/* header */
-#logo {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
-  font-family: 'Abril Fatface', cursive;
-  font-size: 64px;
-}
 
 
 
