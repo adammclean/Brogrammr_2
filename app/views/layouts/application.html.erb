@@ -10,9 +10,21 @@
   </head>
   
   <body>
-   <button-type = "button" id = "menuButton"> <%= link_to '', '#' %></button> 
+   
    <%= render 'layouts/header' %> <br><br>
-  
+    
+  <!-- Drop-down menu glyphicon -->
+  <span class="glyphicon glyphicon-menu-hamburger">
+  <figure id="hamburger">
+    <a href="#menu" id="hamburger_button">Menu</a>
+  </figure>
+    <ul id="dropdown" class="onblog">
+      <li class="dropdown_message">...</li>
+      <li>About</li>
+      <li>Contribute</li>
+      <li>Log-in</li>
+    </ul>
+    </span>
 
   <div id = 'buttonContainer'>
     <p>

@@ -6,6 +6,7 @@ gem 'rails', '4.2.0'
 # Bootstrap bitches
 gem 'bootstrap-sass',       '3.2.0.0'
 # Use sqlite3 as the database for Active Record
+gem 'skrollr-rails'
 gem 'bcrypt', '3.1.7'
 gem 'faker', '1.4.2'
 gem 'carrierwave', '0.10.0'

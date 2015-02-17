@@ -20,6 +20,14 @@
 
 /* button styling */
 
+#hamburger a {
+
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  background-color: black;
+}
 
 #buttonContainer {
   margin-left: 370px;
@@ -38,16 +46,11 @@
   transition-duration: 0.2s;
   background-color: white;
   margin-top: 50px;
-
-
 }
 
 
 
 /* Posts */
-
-
-/* Brogrammr's Font */
 
 
 .abril {
@@ -91,9 +94,11 @@ footer {
 footer a {
   color: #555;
 }
+
 footer a:hover {
   color: #222;
 }
+
 footer small {
   float: left;
 }
