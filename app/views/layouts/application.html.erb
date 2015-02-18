@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
 <head>
   <title><%= full_title(yield(:title)) %></title>
 
@@ -42,21 +42,6 @@
  
   <!-- ####### Adding Dynamism through Angular ######## -->
   
-  <div ng-controller="MyCtrl"> 
-
-  <a ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed" class="btn btn-navbar">
-
-  <a class="brand" href="#">Title</a>
-  <!-- Note: use "collapse" here. The original "data-" settings are not needed anymore. -->
-  <div collapse="navCollapsed" class="nav-collapse collapse navbar-responsive-collapse">
-  <ul class="nav">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Link</a></li>
-    <li><a href="#">Link</a></li>
-    <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-
-
 
   <!-- ##This container is basically useless and needs to be incorporated
   ##With the hamburger glyphicon -->
@@ -77,5 +62,8 @@
    <!--  <%= debug(params) if Rails.env.development?%> -->
 ￼
 		</div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.min.js"></script>
+    <script type="text/javascript" src="application.js"></script>
   </body>
 </html>
