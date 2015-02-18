@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get 'contribute' => 'static_pages#contribute'
 
   resources :users
-  resources :maps  
+  
 
  
   
