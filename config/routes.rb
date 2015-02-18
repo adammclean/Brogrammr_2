@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get 'contribute' => 'static_pages#contribute'
 
   resources :users
-<<<<<<< HEAD
+
   resources :posts
  
   # get 'posts/new'
@@ -21,9 +21,7 @@ Rails.application.routes.draw do
   # get 'posts/update'
 
   # get 'posts/destroy'
-=======
-  
->>>>>>> sign-up
+
 
  
   
