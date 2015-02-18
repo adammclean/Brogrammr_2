@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
   
+  get 'posts/new'
+
+  get 'posts/edit'
+
+  get 'posts/create'
+
+  get 'posts/update'
+
+  get 'posts/destroy'
+
   root 'static_pages#home'
 
   get 'about' => 'static_pages#about'
@@ -7,7 +17,7 @@ Rails.application.routes.draw do
   get 'contribute' => 'static_pages#contribute'
 
   resources :users
-  resources :maps  
+ 
 
  
   
