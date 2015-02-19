@@ -13,7 +13,7 @@
 }
 ￼
 
-/* header my #logo is no longer working */
+/* header */
 
 #jumbotron {
   
@@ -43,25 +43,31 @@
 }
 
 
-/**#####Dropdown Styling####**/
-
-
-.dropdownMenu1 {
+/***** Dropdown Menu Button *****/
+.btn-group {
   float: right;
-  
-
 }
+
+
 
 /******* Button Styling ********/
 
 
-
 #buttonContainer {
-  margin-left: 370px;
+  margin-left: 250px;
+  margin-top: -100px;
+  height: 100px;
+  width: 350px;
+}
+
+
+#buttonContainer.p {
+  margin-left: 250px;
+  margin-top: 100px;
   height: 100px;
   width: 400px;
-
 }
+
 
 .btn {
   display: inline-block;

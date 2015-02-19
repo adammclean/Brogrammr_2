@@ -3,36 +3,32 @@
 				<%= link_to "Brogrammr", 'home_path', id: "logo" %> 
 
 	
-  	<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-
-    <span class="caret"></span>
-  	
+  
     
   
   <!--   ########## The Bootstrap menu dropdown ########### -->
     
-      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Contribute</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Log-in</a></li>
-    </ul>
-    
+   <!-- Small button group -->
+  <!-- Split button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">=</button>
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">=</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Log-in</a></li>
+    <li><a href="#">Contribute</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
 
-  <!--   ########## Hybrid bootstrap button ERB ########### -->
+
 
   
-  <!-- <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1"> 
-       <li role="presentation"><%= link_to "Home", root_path %></li> 
-       <li role="presentation"><%= link_to "About", about_path %></li> 
-       <li role="presentation"><%= link_to "Contribute", contribute_path %></li>
-       <li role="presentation"><%= link_to "Log-in", new_user_path %></li>
-    </ul> <br> 
-    -->
 
-
-  
-
-				
-      </div>
-    </header>
+			
 

@@ -1,12 +1,8 @@
 
-var myApp = angular.module('myApp', ['ui.bootstrap']);
 
 //myApp.directive('myDirective', function() {});
 //myApp.factory('myService', function() {});
 
-function MyCtrl($scope) {
-    $scope.name = 'Superhero';
-}
 
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
@@ -27,4 +23,5 @@ function MyCtrl($scope) {
 //= require skrollr.stylesheets
 //= require skrollr.ie
 //= require_tree .
+//= require bootstrap
 
