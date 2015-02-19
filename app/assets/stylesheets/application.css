@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+#findMyDiv p {
+  
+  font-size: 64px;
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 140px;
+  
+}
