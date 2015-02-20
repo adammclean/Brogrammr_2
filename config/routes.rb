@@ -8,9 +8,11 @@ Rails.application.routes.draw do
 
   get 'contribute' => 'static_pages#contribute'
 
+  get 'signup' => 'users#new'
+
   resources :users
 
-  resources :posts
+
  
   # get 'posts/new'
 
