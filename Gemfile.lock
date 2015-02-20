@@ -38,6 +38,15 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (6.0.0)
+    aws-sdk (2.0.26)
+      aws-sdk-resources (= 2.0.26)
+    aws-sdk-core (2.0.26)
+      builder (~> 3.0)
+      jmespath (~> 1.0)
+      multi_json (~> 1.0)
+      multi_xml (~> 0.5)
+    aws-sdk-resources (2.0.26)
+      aws-sdk-core (= 2.0.26)
     bcrypt (3.1.7)
     better_errors (2.1.1)
       coderay (>= 1.0.0)
@@ -78,6 +87,8 @@ GEM
     faker (1.4.2)
       i18n (~> 0.5)
     ffi (1.9.6)
+    figaro (1.1.0)
+      thor (~> 0.14)
     fog (1.23.0)
       fog-brightbox
       fog-core (~> 1.23)
@@ -124,6 +135,8 @@ GEM
     jbuilder (2.2.7)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
+    jmespath (1.0.2)
+      multi_json (~> 1.0)
     jquery-rails (4.0.3)
       rails-dom-testing (~> 1.0)
       railties (>= 4.2.0)
@@ -154,6 +167,7 @@ GEM
       minitest (>= 5.0)
       ruby-progressbar
     multi_json (1.10.1)
+    multi_xml (0.5.5)
     nenv (0.2.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
@@ -261,6 +275,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-sdk
   bcrypt (= 3.1.7)
   better_errors (~> 2.1.1)
   bootstrap-sass (= 3.2.0.0)
@@ -269,6 +284,7 @@ DEPENDENCIES
   carrierwave (= 0.10.0)
   coffee-rails (~> 4.1.0)
   faker (= 1.4.2)
+  figaro
   fog (= 1.23.0)
   guard-minitest (= 2.3.1)
   jbuilder (~> 2.0)
