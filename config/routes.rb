@@ -1,9 +1,5 @@
 Rails.application.routes.draw do
   
-  
-
-
-
   root    'static_pages#home'
   get     'about' => 'static_pages#about'
   get     'contribute' => 'static_pages#contribute'
@@ -11,7 +7,8 @@ Rails.application.routes.draw do
   get     'login' => 'sessions#new'
   post    'login' => 'sessions#create'
   delete  'logout' => 'sessions#destroy'
-  resources :users
+  resources :users, only: [:index, :new, :create, :destroy]
+
 
 
  
