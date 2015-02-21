@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
   		# TERNIARY OPERATOR
       # if_this_is_a_true_value ? then_the_result_is_this : else_it_is_this
       params[:session][:remember_me] == '1' ? remember(user) : forget(user)
-  		redirect_to user
+  		redirect_back_or user
   	else
   		flash.now[:danger] = 'Invalid email/password combination'
   		render 'new'

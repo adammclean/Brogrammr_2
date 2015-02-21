@@ -33,3 +33,9 @@ class UsersControllerTest < ActionController::TestCase
     get :edit, id: @user
     assert flash.empty?
 	end
+
+  test "should redirect index when not logged in" do
+    get :index
+    assert_redirected_to login_url
+  end
+end
